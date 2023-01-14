@@ -8,6 +8,14 @@ hamburger.addEventListener('click', () => {
 	btnArrow.classList.toggle('btn-active');
 });
 
+menu.addEventListener('click', (e) => {
+	console.log(e.target);
+
+	if (e.target.className.includes('menu-link')) {
+		menu.classList.remove('active');
+	}
+});
+
 const nav = document.querySelector('.nav');
 
 window.addEventListener('scroll', () => {
