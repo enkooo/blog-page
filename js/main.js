@@ -36,3 +36,26 @@ container.addEventListener('click', (e) => {
 
 	current.textContent = current.textContent === 'Read more' ? 'Read less' : 'Read more';
 });
+
+gsap.registerPlugin(ScrollTrigger);
+
+const sections = document.querySelectorAll('.section-wrapper');
+
+sections.forEach((section) => {
+	gsap.fromTo(
+		section.children,
+		{ y: '+=100', opacity: 0 },
+		{
+			y: 0,
+			opacity: 1,
+			stagger: 0.1,
+			duration: 0.5,
+			ease: 'easeInOut',
+			scrollTrigger: {
+				trigger: section,
+				start: '-20% 80%',
+				toggleActions: 'restart',
+			},
+		}
+	);
+});

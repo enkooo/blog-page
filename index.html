@@ -14,16 +14,16 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Frontend Blog</title>
 	</head>
-	<body id="home">
+	<body>
 		<nav class="nav">
 			<div class="logo">
 				<img src="./images/logo.png" alt="logo" class="logo" />
 			</div>
 			<ul class="menu">
-				<li class="menu-link"><a href="#home">Home</a></li>
+				<li class="menu-link"><a href="#">Home</a></li>
 				<li class="menu-link">About Me</li>
 				<li class="menu-link">Page Details</li>
-				<li class="menu-link">Contact</li>
+				<li class="menu-link"><a href="#contact">Contact</a></li>
 			</ul>
 			<button class="hamburger">
 				<span class="hamburger-box">
@@ -86,7 +86,7 @@
 								autem, mollitia consequatur enim.</span
 							>
 						</p>
-						<button class="btn-read-more">Read more</button>
+						<button class="btn btn-read-more">Read more</button>
 					</article>
 				</div>
 			</section>
@@ -129,7 +129,7 @@
 								autem, mollitia consequatur enim.</span
 							>
 						</p>
-						<button class="btn-read-more">Read more</button>
+						<button class="btn btn-read-more">Read more</button>
 					</article>
 				</div>
 			</section>
@@ -172,7 +172,7 @@
 								autem, mollitia consequatur enim.</span
 							>
 						</p>
-						<button class="btn-read-more">Read more</button>
+						<button class="btn btn-read-more">Read more</button>
 					</article>
 				</div>
 			</section>
@@ -215,14 +215,30 @@
 								autem, mollitia consequatur enim.</span
 							>
 						</p>
-						<button class="btn-read-more">Read more</button>
+						<button class="btn btn-read-more">Read more</button>
 					</article>
 				</div>
 			</section>
 		</main>
 		<footer>
-			<p>&copy; Frontend Blog by Bartmiej Pytlos. All rights reserved</p>
+			<div class="footer-wrapper">
+				<div class="footer-form">
+					<h2 id="contact">Contact</h2>
+					<form action="#" method="post">
+						<input type="text" name="name" placeholder="Name" />
+						<input type="email" name="e-mail" placeholder="Email" />
+						<textarea name="message" placeholder="Message"></textarea>
+						<input type="submit" value="Send" class="btn" />
+					</form>
+				</div>
+				<div class="footer-rights">
+					<p>&copy; Frontend Blog by Bartmiej Pytlos.</p>
+					<p>All rights reserved</p>
+				</div>
+			</div>
 		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 		<script src="./js/main.js"></script>
 	</body>
 </html>
