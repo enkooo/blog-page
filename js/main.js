@@ -9,10 +9,9 @@ hamburger.addEventListener('click', () => {
 });
 
 menu.addEventListener('click', (e) => {
-	console.log(e.target);
-
-	if (e.target.className.includes('menu-link')) {
+	if (e.target.tagName.toLowerCase() === 'a') {
 		menu.classList.remove('active');
+		hamburger.classList.remove('hamburger-active');
 	}
 });
 
@@ -35,15 +34,27 @@ container.addEventListener('click', (e) => {
 	const current = e.target;
 	const isBtn = current.className.includes('btn-read-more');
 
-	if (!isBtn) return;
+	if (isBtn) {
+		const content = e.target.parentNode.querySelector('.span-read-more');
+		content.classList.toggle('open');
+		const dots = e.target.parentNode.querySelector('.dots');
+		dots.classList.toggle('open');
 
-	const content = e.target.parentNode.querySelector('.span-read-more');
-	content.classList.toggle('open');
-	const dots = e.target.parentNode.querySelector('.dots');
-	dots.classList.toggle('open');
-
-	current.textContent = current.textContent === 'Read more' ? 'Read less' : 'Read more';
+		current.textContent = current.textContent === 'Read more' ? 'Read less' : 'Read more';
+	}
 });
+
+const img = document.querySelector('.header-img');
+const headerContent = document.querySelector('.header-content');
+
+gsap.set([img, headerContent, nav], { autoAlpha: 0 });
+
+const tl = gsap.timeline({ defaults: { ease: 'power2.inOut' } });
+
+tl.fromTo(nav, { y: '-=200' }, { duration: 1, y: '+=200', autoAlpha: 1 })
+	.fromTo(img, { x: '+=500' }, { duration: 1, x: '-=500', autoAlpha: 1 }, '-=1')
+	.fromTo(headerContent, { x: '-=500' }, { duration: 1, x: '+=500', autoAlpha: 1 }, '-=1')
+	.fromTo(btnArrow, { y: '+=200' }, { duration: 1, y: '-=200', opacity: 1 });
 
 gsap.registerPlugin(ScrollTrigger);
 

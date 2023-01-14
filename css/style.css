@@ -81,10 +81,10 @@ body {
 	transition: translate 0.15s ease-in-out;
 }
 
-.menu a {
+/* .menu a {
 	text-decoration: none;
 	color: black;
-}
+} */
 
 .menu.active {
 	translate: 0;
@@ -245,6 +245,7 @@ body {
 	cursor: pointer;
 	transition: 0.5s;
 	border: 2px solid rgb(85, 85, 85);
+	opacity: 0;
 }
 
 .btn-arrow i {
