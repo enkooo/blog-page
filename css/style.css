@@ -384,6 +384,43 @@ section {
 	}
 }
 
+.subscription {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	padding: 0 2em 3em;
+	max-width: 1000px;
+	margin-bottom: 0;
+	scroll-margin-top: 100px;
+}
+
+.subscription h2 {
+	margin-bottom: 0.5em;
+}
+
+.table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.table tr {
+	border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.table td {
+	padding: 1em 0;
+}
+
+.btn-subscribe {
+	margin-top: 1em;
+	/* padding: 3em auto; */
+	font-size: 1.5rem;
+	width: 100%;
+}
+
 footer {
 	background-color: #f7f7f7;
 }
