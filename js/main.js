@@ -63,12 +63,11 @@ const sections = document.querySelectorAll('.section-wrapper');
 sections.forEach((section) => {
 	gsap.fromTo(
 		section.children,
-		{ y: '+=100', opacity: 0 },
+		{ y: '+=150', autoAlpha: 0 },
 		{
 			y: 0,
-			opacity: 1,
-			stagger: 0.1,
-			duration: 0.5,
+			autoAlpha: 1,
+			duration: 0.8,
 			ease: 'easeInOut',
 			scrollTrigger: {
 				trigger: section,
