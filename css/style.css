@@ -485,6 +485,10 @@ footer {
 	border: none;
 }
 
+.footer-form label {
+	display: none;
+}
+
 @media only screen and (min-width: 1000px) {
 	.footer-wrapper {
 		flex-direction: row;
