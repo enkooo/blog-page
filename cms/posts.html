@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<nav class="nav active">
+			<div class="logo">
+				<img src="../images/logo.png" alt="logo" class="logo" />
+			</div>
+			<ul class="menu">
+				<li class="menu-link"><a href="./posts.html">Posts</a></li>
+				<li class="menu-link"><a href="./users.html">Users</a></li>
+				<li class="menu-link"><a href="./index.html">Statistics</a></li>
+				<li class="menu-link"><a href="./profile.html">Profile</a></li>
+				<li class="menu-link"><a href="../index.html">Logout</a></li>
+			</ul>
+			<button class="hamburger" aria-label="hamburger-menu">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</nav>
+    <main>
+    <div class="container">
+      <h1>All posts</h1>
+      <table class="table">
+        <tr>
+          <th>ID</th>
+          <th>Post</th>
+          <th>Author</th>
+          <th>Date</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mobile first - best practice when you build a page</td>
+          <td>Jhon Doe</td>
+          <td>2023-01-10</td>
+          <td><a href="./edit-post.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>React - what is it?</td>
+          <td>Jhon Doe</td>
+          <td>2023-01-01</td>
+          <td><a href="./edit-post.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Landing page - popular concept</td>
+          <td>Jhon Doe</td>
+          <td>2023-12-05</td>
+          <td><a href="./edit-post.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>GatsbyJS - how to build a static site</td>
+          <td>Jhon Doe</td>
+          <td>2023-12-01</td>
+          <td><a href="./edit-post.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Lorem ipsum dolor sit amet.</td>
+          <td>Jhon Doe</td>
+          <td>2022-11-01</td>
+          <td><a href="./edit-post.html" class="btn">Edit</a></td>
+        </tr> 
+      </table>
+    </div>
+    </main>
+		</div>
+		<script src="../js/main.js"></script>
+	</body>
+</html>

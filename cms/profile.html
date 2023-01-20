@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<nav class="nav active">
+			<div class="logo">
+				<img src="../images/logo.png" alt="logo" class="logo" />
+			</div>
+			<ul class="menu">
+				<li class="menu-link"><a href="./posts.html">Posts</a></li>
+				<li class="menu-link"><a href="./users.html">Users</a></li>
+				<li class="menu-link"><a href="./index.html">Statistics</a></li>
+				<li class="menu-link"><a href="./profile.html">Profile</a></li>
+				<li class="menu-link"><a href="../index.html">Logout</a></li>
+			</ul>
+			<button class="hamburger" aria-label="hamburger-menu">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</nav>
+    <main>
+			<h1 class="h1-profile">Profile</h1>
+			<div class="profile-container">
+				<div class="profile-img">
+					<img src="../images/profile.svg" alt="Jhon Doe" />
+				</div>
+				<div class="profile-details">
+					<h2>Jhon Doe</h2>
+					<p><i class="fa-solid fa-envelope"></i> jhondoe@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i> 123 321 123</p>
+					<p><i class="fa-solid fa-address-card"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, cupiditate.</p>
+					<a href="./edit-user.html" class="btn">Edit</a>
+				</div>
+			</div>
+    </main>
+		</div>
+		<script src="../js/main.js"></script>
+	</body>
+</html>

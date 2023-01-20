@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<nav class="nav active">
+			<div class="logo">
+				<img src="../images/logo.png" alt="logo" class="logo" />
+			</div>
+			<ul class="menu">
+				<li class="menu-link"><a href="./posts.html">Posts</a></li>
+				<li class="menu-link"><a href="./users.html">Users</a></li>
+				<li class="menu-link"><a href="./index.html">Statistics</a></li>
+				<li class="menu-link"><a href="./profile.html">Profile</a></li>
+				<li class="menu-link"><a href="../index.html">Logout</a></li>
+			</ul>
+			<button class="hamburger" aria-label="hamburger-menu">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</nav>
+    <main>
+    <div class="container">
+      <h1>Users</h1>
+      <table class="table">
+        <tr>
+          <th>ID</th>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Email</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Jhon</td>
+          <td>Doe</td>
+          <td>jhon@gmail.com</td>
+          <td><a href="./edit-user.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jan</td>
+          <td>Kowalski</td>
+          <td>janek2001@o2.pl</td>
+          <td><a href="./edit-user.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Marta</td>
+          <td>Mowalska</td>
+          <td>marta01PL@wp.pl</td>
+          <td><a href="./edit-user.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Kuba</td>
+          <td>Nowak</td>
+          <td>jacobPL@gmail.com</td>
+          <td><a href="./edit-user.html" class="btn">Edit</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Artur</td>
+          <td>Mały</td>
+          <td>arturekduzy@gmail.com</td>
+          <td><a href="./edit-user.html" class="btn">Edit</a></td>
+        </tr> 
+      </table>
+    </div>
+    </main>
+		</div>
+		<script src="../js/main.js"></script>
+	</body>
+</html>

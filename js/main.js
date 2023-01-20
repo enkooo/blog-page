@@ -54,7 +54,7 @@ const tl = gsap.timeline({ defaults: { ease: 'power2.inOut' } });
 tl.fromTo(nav, { y: '-=200' }, { duration: 1, y: '+=200', autoAlpha: 1 })
 	.fromTo(img, { x: '+=500' }, { duration: 1, x: '-=500', autoAlpha: 1 }, '-=1')
 	.fromTo(headerContent, { x: '-=500' }, { duration: 1, x: '+=500', autoAlpha: 1 }, '-=1')
-	.fromTo(btnArrow, { y: '+=200' }, { duration: 1, y: '-=200', opacity: 1 });
+	.fromTo(btnArrow, { y: '+=200' }, { duration: 1, y: '-=200', opacity: 1 }, '-=0.7');
 
 gsap.registerPlugin(ScrollTrigger);
 
