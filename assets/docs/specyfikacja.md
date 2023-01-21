@@ -11,7 +11,7 @@ Posty to nie tylko zwykłe poradniki, ale też artykuły o nowościach panujący
 -   header z grafiką i tytułem strony
 -   przycisk do przejścia na dół strony
 
-![Screenshot](./assets/screenshots/header.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/header.png)
 
 ## Sekcja z artykułami
 
@@ -19,7 +19,7 @@ Posty to nie tylko zwykłe poradniki, ale też artykuły o nowościach panujący
 -   najnowsze artykuły wraz z grafiką
 -   przycisk do rozwinięcia tekstu
 
-![Screenshot](./assets/screenshots/articles.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/articles.png)
 
 ## Sekcja subscribe
 
@@ -27,7 +27,7 @@ Posty to nie tylko zwykłe poradniki, ale też artykuły o nowościach panujący
 -   tabela z rozpiską co daje subskrybcja bloga
 -   przycisk do zapisania się do subskrybcji
 
-![Screenshot](./assets/screenshots/subscribe.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/subscribe.png)
 
 ## Stopka
 
@@ -36,7 +36,7 @@ Posty to nie tylko zwykłe poradniki, ale też artykuły o nowościach panujący
 -   link do strony informacyjnej
 -   link do CMS
 
-![Screenshot](./assets/screenshots/footer.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/footer.png)
 
 ## Strona informacyjna
 
@@ -45,13 +45,13 @@ Posty to nie tylko zwykłe poradniki, ale też artykuły o nowościach panujący
 -   link do pobrania specyfikacji
 -   link do repozytorium na githubie
 
-![Screenshot](./assets/screenshots/details.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/details.png)
 
 ## Ekran logowania
 
 -   formularz przekierowujący do CMSa
 
-![Screenshot](./assets/screenshots/login.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/login.png)
 
 ## Dashboard
 
@@ -59,35 +59,35 @@ Posty to nie tylko zwykłe poradniki, ale też artykuły o nowościach panujący
 
 -   strona ze statystykami serwisu
 
-![Screenshot](./assets/screenshots/statistics.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/statistics.png)
 
 ### Posty
 
 -   strona z postami serwisu, z możliwością przejścia do edycji wybranego postu
 
-![Screenshot](./assets/screenshots/posts.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/posts.png)
 
 ### Edycja postu
 
 -   formularz do edycji postu
 
-![Screenshot](./assets/screenshots/edit-post.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/edit-post.png)
 
 ### Użytkownicy
 
 -   strona z użytkownikami serwisu, z możliwością przejścia do edycji użytkownika
 
-![Screenshot](./assets/screenshots/users.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/users.png)
 
 ### Edycja użytkownika
 
 -   formularz do edycji użytkownika
 
-![Screenshot](./assets/screenshots/edit-user.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/edit-user.png)
 
 ### Profil zalogowanego użytkownika
 
 -   podstawowe informacje o zalogowanym użytkowniku
 -   przycisk do edycji zalogowanego użytkownika
 
-![Screenshot](./assets/screenshots/profile.png)
+![Screenshot](https://raw.githubusercontent.com/enkooo/blog-page/main/assets/screenshots/profile.png)
